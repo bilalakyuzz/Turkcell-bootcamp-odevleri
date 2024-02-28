@@ -1,0 +1,13 @@
+package com.bilal.CustomerInheritance;
+
+public class InheritanceMain {
+    public static void main(String[] args) {
+        Customer customer = new Customer();
+        Employee employee = new Employee();
+
+        CustomerManager customerManager = new CustomerManager();
+        EmployeeManager employeeManager = new EmployeeManager();
+        employeeManager.BestManager();
+        customerManager.Add();
+    }
+}
